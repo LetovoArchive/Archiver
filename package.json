@@ -1,0 +1,25 @@
+{
+  "name": "letovo-archive-archiver",
+  "version": "0.1.0",
+  "description": "NodeJS module to archive some of Letovo's public info from the internet.",
+  "main": "index.js",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LetovoArchive/Archiver.git"
+  },
+  "keywords": [
+    "letovo",
+    "archive",
+    "archiver"
+  ],
+  "author": "Milk_Cool",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LetovoArchive/Archiver/issues"
+  },
+  "homepage": "https://github.com/LetovoArchive/Archiver#readme",
+  "dependencies": {
+    "@navetacandra/ddg": "^0.0.6"
+  }
+}
