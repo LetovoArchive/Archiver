@@ -103,7 +103,7 @@ export class WebsiteArchiver {
                 for(const item of element.data.items) {
                     if(!item.document || !item.document.document) continue;
                     const url = item.document.document.url;
-                    docs[item.document.document.id] = Buffer.from(await (await fetch(url[0] === "/" ? new URL(url, this.domain) : url)).arrayBuffer());
+                    docs[item.document.document.id] = { url, data: Buffer.from(await (await fetch(url[0] === "/" ? new URL(url, this.domain) : url)).arrayBuffer()) };
                 }
             }
         }
