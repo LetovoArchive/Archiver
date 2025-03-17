@@ -12,6 +12,7 @@ export class WebsiteArchiver {
             "main",
             "o-shkole/o-samom-vazhnom",
             "o-shkole/contacts",
+            "o-shkole/svedenia-ob-obrazovatelnoy-organizacii",
             "postuplenie/postuplenie-dlya-prizerov-olimpiadi",
             "postuplenie/stoimost-obucheniya-i-finansovaya-podderzhka",
             "postuplenie/rekomendatsii-po-podgotovke-k-testirovaniyu",
