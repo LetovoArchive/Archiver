@@ -5,7 +5,7 @@ export class WebArchiver {
      * @param {string[]} allowedHosts Allowed hostst
      */
     constructor(allowedHosts) {
-        this.allowedHosts = allowedHosts ?? ["letovo.ru", "letovo.site", "letovo.school"];
+        this.allowedHosts = allowedHosts ?? ["letovo.ru", "letovo.site", "letovo.school", "letovo-schedule.ru"];
     }
 
     /**
