@@ -1,6 +1,6 @@
 {
   "name": "letovo-archive-archiver",
-  "version": "0.3.2",
+  "version": "0.4.0",
   "description": "NodeJS module to archive some of Letovo's public info from the internet.",
   "main": "index.js",
   "type": "module",
@@ -21,6 +21,7 @@
   "homepage": "https://github.com/LetovoArchive/Archiver#readme",
   "dependencies": {
     "@navetacandra/ddg": "^0.0.6",
-    "puppeteer": "^23.11.1"
+    "puppeteer": "^23.11.1",
+    "rss-parser": "^3.13.0"
   }
 }
