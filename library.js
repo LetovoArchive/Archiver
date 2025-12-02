@@ -35,7 +35,6 @@ export class LibraryArchiver {
                 cookie
             }
         });
-        console.log(await f2.text());
 
         const parser = new Parser({
             customFields: {
@@ -52,9 +51,9 @@ export class LibraryArchiver {
             let offset = 0;
             while(true) {
                 const feed = await parser.parseURL(getURL(branch, offset));
+                if(feed.items.length === 0) break;
                 for(const item of feed.items) {
                     items.push({ title: item.title.trim(), identifier: item["dc:identifier"], link: item.link });
-                    console.log(items.at(-1));
                 }
                 offset += feed.items.length;
             }
